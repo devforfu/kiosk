@@ -1,15 +1,12 @@
 """
-Simple Media Player Software
-----------------------------
+Simple Information Kiosk Daemon
+-------------------------------
 
-python setup.py install
-
-Package features
-````````````````
+python3 setup.py install
 
 Links
 `````
-* `development <https://gitlab.com/devforfu/simple_media_player_software>`_`
+* `development <https://github.com/devforfu/kiosk>`_`
 
 """
 
@@ -77,7 +74,7 @@ setup(name='simple_media_player',
       long_description=__doc__,
       author='',
       author_email='',
-      url='https://gitlab.com/devforfu/simple_media_player_software',
+      url='https://github.com/devforfu/kiosk',
       packages=['simple_media_player',
                 'simple_media_player.api',
                 'simple_media_player.mockup',
